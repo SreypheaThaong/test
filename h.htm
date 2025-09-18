@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Wandering Pages — Book Landing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="The Wandering Pages — a captivating novel about discovery, memory, and the places books take us." />
+  <style>
+    /* tiny extra styles */
+    .cover {
+      background: linear-gradient(135deg, #f0f4ff 0%, #e6fff7 100%);
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(16,24,40,0.06);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <header class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-extrabold tracking-tight">The Wandering Pages</a>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#excerpt" class="hover:underline">Excerpt</a>
+        <a href="#reviews" class="hover:underline">Reviews</a>
+        <a href="#buy" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-sm hover:bg-indigo-700">Buy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-10">
+    <section class="grid gap-8 md:grid-cols-2 items-center">
+      <div class="cover p-6">
+        <div class="flex items-center gap-6">
+          <div class="w-40 h-56 bg-white rounded-lg overflow-hidden flex items-center justify-center shadow">
+            <!-- SVG placeholder cover -->
+            <svg width="120" height="170" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 170" aria-hidden="true">
+              <rect width="120" height="170" rx="8" fill="#f8fafc" />
+              <g fill="#c7d2fe">
+                <rect x="12" y="20" width="96" height="12" rx="3"/>
+                <rect x="12" y="40" width="80" height="10" rx="3"/>
+                <rect x="12" y="60" width="96" height="10" rx="3"/>
+              </g>
+            </svg>
+          </div>
+
+          <div>
+            <h1 class="text-3xl font-bold">The Wandering Pages</h1>
+            <p class="mt-1 text-sm text-gray-600">by <strong>Arin S. Duval</strong></p>
+
+            <div class="mt-4 flex items-center gap-3">
+              <div class="text-2xl font-semibold">$14.99</div>
+              <div class="px-2 py-1 text-xs bg-green-100 text-green-800 rounded">Paperback</div>
+              <div class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded">English</div>
+            </div>
+
+            <p class="mt-4 text-gray-700">A lyrical novel about a traveling bookseller whose collection changes the lives of people in small towns. A story about memory, maps, and the quiet power of reading.</p>
+
+            <div class="mt-6 flex gap-3">
+              <a id="buy-now" href="#buy" class="px-5 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700">Buy Now</a>
+              <a href="#excerpt" class="px-4 py-2 border rounded-lg text-sm hover:bg-gray-100">Read Excerpt</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="bg-white rounded-lg p-6 shadow">
+          <h3 class="font-semibold">Book details</h3>
+          <dl class="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 text-sm text-gray-600">
+            <div>
+              <dt class="font-medium text-gray-800">Pages</dt>
+              <dd>312</dd>
+            </div>
+            <div>
+              <dt class="font-medium text-gray-800">Publisher</dt>
+              <dd>Harbor &amp; Pine</dd>
+            </div>
+            <div>
+              <dt class="font-medium text-gray-800">ISBN</dt>
+              <dd>978-1-23456-789-0</dd>
+            </div>
+            <div>
+              <dt class="font-medium text-gray-800">Release</dt>
+              <dd>June 10, 2025</dd>
+            </div>
+          </dl>
+
+          <div class="mt-6">
+            <h4 class="font-medium">What readers say</h4>
+            <p class="mt-2 text-sm text-gray-700">“A tender, beautifully written novel — I couldn't put it down.” — <em>BookCircle</em></p>
+          </div>
+
+        </div>
+
+        <div class="mt-6 bg-white rounded-lg p-6 shadow">
+          <h4 class="font-semibold">Sample reviews</h4>
+          <ul class="mt-3 space-y-3 text-sm text-gray-700">
+            <li>“Haunting and hopeful.” — <strong>ReaderA</strong></li>
+            <li>“Deserves a place on your shelf.” — <strong>ReaderB</strong></li>
+            <li>“A perfect travel companion.” — <strong>ReaderC</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="mt-10">
+      <div class="bg-white rounded-lg p-6 shadow">
+        <h2 class="text-2xl font-bold">About the book</h2>
+        <p class="mt-4 text-gray-700 leading-relaxed">The Wandering Pages follows Emmett, a travelling bookseller who wanders coastal towns and mountain roads, trading books for stories. Each town's people bring a new chapter to the novel — and to Emmett's life — as he pieces together an unexpected past and learns the meaning of home.</p>
+
+        <h3 class="mt-6 font-semibold">Themes</h3>
+        <ul class="mt-3 list-disc list-inside text-sm text-gray-700">
+          <li>Memory and identity</li>
+          <li>The transformative power of stories</li>
+          <li>Small communities and connection</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="excerpt" class="mt-10">
+      <div class="bg-white rounded-lg p-6 shadow">
+        <h2 class="text-2xl font-bold">Excerpt</h2>
+        <article class="prose mt-4 max-w-none">
+          <p>He kept the map folded in the back of the book, lines creased like the creek beds he crossed. In the morning light the pages smelled of tea and rain. He didn't know which town would keep him, only that each book he traded left a memory behind like a pebble dropped into water.</p>
+          <p>Some books were given back as directions; some returned as warnings. Each one held a voice that whispered of where the next road might lead.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="mt-10">
+      <div class="bg-white rounded-lg p-6 shadow">
+        <h2 class="text-2xl font-bold">Reader reviews</h2>
+        <div class="mt-4 grid gap-4 md:grid-cols-3">
+          <blockquote class="p-4 border-l-4 border-indigo-200">
+            <p class="text-sm">"An intimate portrait of small-town life, told through the books that matter."</p>
+            <footer class="mt-2 text-xs text-gray-500">— Lin H.</footer>
+          </blockquote>
+
+          <blockquote class="p-4 border-l-4 border-indigo-200">
+            <p class="text-sm">"Quiet, reflective, and utterly transporting."</p>
+            <footer class="mt-2 text-xs text-gray-500">— Omar P.</footer>
+          </blockquote>
+
+          <blockquote class="p-4 border-l-4 border-indigo-200">
+            <p class="text-sm">"A love letter to readers everywhere."</p>
+            <footer class="mt-2 text-xs text-gray-500">— Maya S.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="buy" class="mt-10">
+      <div class="bg-white rounded-lg p-6 shadow flex flex-col md:flex-row items-center gap-6">
+        <div class="flex-1">
+          <h2 class="text-xl font-bold">Buy the book</h2>
+          <p class="mt-2 text-sm text-gray-700">Available in paperback and eBook. Select your preferred format and proceed to checkout.</p>
+
+          <form id="buyForm" class="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <select id="format" class="col-span-2 p-2 border rounded">
+              <option value="paperback">Paperback — $14.99</option>
+              <option value="ebook">eBook — $7.99</option>
+              <option value="hardcover">Hardcover — $24.99</option>
+            </select>
+            <button type="button" onclick="addToCart()" class="px-4 py-2 bg-indigo-600 text-white rounded">Add to cart</button>
+          </form>
+
+          <div id="cartMessage" class="mt-3 text-sm text-green-700 hidden">Added to cart ✓</div>
+        </div>
+
+        <div class="w-44 text-center">
+          <div class="text-xs text-gray-500">Secure checkout</div>
+          <div class="mt-3 text-sm">Ships worldwide • Instant eBook</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="mt-10">
+      <div class="bg-white rounded-lg p-6 shadow">
+        <h2 class="text-xl font-bold">Contact the author</h2>
+        <form onsubmit="handleContact(event)" class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input required name="name" placeholder="Your name" class="p-2 border rounded" />
+          <input required name="email" placeholder="Your email" type="email" class="p-2 border rounded" />
+          <textarea required name="message" placeholder="Message" class="col-span-1 md:col-span-2 p-2 border rounded" rows="4"></textarea>
+          <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded">Send message</button>
+        </form>
+        <div id="contactMsg" class="mt-3 text-sm text-blue-700 hidden">Thanks — we'll get back to you soon.</div>
+      </div>
+    </section>
+
+    <footer class="mt-12 text-center text-sm text-gray-500">
+      © <span id="year"></span> Arin S. Duval — The Wandering Pages
+    </footer>
+  </main>
+
+  <script>
+    // small interactions
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function addToCart(){
+      document.getElementById('cartMessage').classList.remove('hidden');
+      setTimeout(()=> document.getElementById('cartMessage').classList.add('hidden'), 2500);
+    }
+
+    function handleContact(e){
+      e.preventDefault();
+      // simulate a submit
+      document.getElementById('contactMsg').classList.remove('hidden');
+      e.target.reset();
+      setTimeout(()=> document.getElementById('contactMsg').classList.add('hidden'), 3000);
+    }
+  </script>
+</body>
+</html>
